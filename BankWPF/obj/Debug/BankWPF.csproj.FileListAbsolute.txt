@@ -1,0 +1,16 @@
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\bin\Debug\BankWPF.exe.config
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\bin\Debug\BankWPF.xml
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\bin\Debug\BankWPF.exe
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\bin\Debug\BankWPF.pdb
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.csprojAssemblyReference.cache
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\App.g.cs
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF_MarkupCompile.cache
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF_MarkupCompile.lref
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\MainWindow.baml
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.g.resources
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.Properties.Resources.resources
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.csproj.GenerateResource.cache
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.csproj.CoreCompileInputs.cache
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.exe
+C:\Users\Vámosi\source\repos\BankWPF\BankWPF\obj\Debug\BankWPF.pdb

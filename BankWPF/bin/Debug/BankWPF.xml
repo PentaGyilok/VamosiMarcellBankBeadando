@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankWPF</name>
+    </assembly>
+    <members>
+        <member name="T:BankWPF.Szamla">
+            <summary>
+            Számla osztály
+            </summary>
+        </member>
+        <member name="P:BankWPF.Szamla.Tulajnev">
+            <summary>
+            számlatulaj neve
+            </summary>
+        </member>
+        <member name="P:BankWPF.Szamla.Egyenleg">
+            <summary>
+            számlatulaj pénzmennyisége
+            </summary>
+        </member>
+        <member name="M:BankWPF.Szamla.#ctor(System.String,System.Int32)">
+            <summary>
+            Szamla konstruktor
+            </summary>
+            <param name="ni"></param>
+            <param name="na"></param>
+        </member>
+        <member name="T:BankWPF.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:BankWPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:BankWPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:BankWPF.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:BankWPF.MainWindow.Elso">
+            <summary>
+            Első bankszámla
+            </summary>
+        </member>
+        <member name="F:BankWPF.MainWindow.Masodik">
+            <summary>
+            Második bankszámla
+            </summary>
+        </member>
+        <member name="M:BankWPF.MainWindow.#ctor">
+            <summary>
+            Main window code, indításkor ez fut le legelőször. Létrehozza az ablakot és feltölti a szükséges mezőket a kezdőadatokkal
+            </summary>
+        </member>
+        <member name="M:BankWPF.MainWindow.FeltoltoStart">
+            <summary>
+            A program indulásakor a négy readonly mezőt tölti fel a számlák adataival.
+            </summary>
+        </member>
+        <member name="M:BankWPF.MainWindow.Feltolt1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Ha az első számlára akarjuk a beviteli mezőbe beírt összeget feltölteni, akkor ez a függvény fogja hozzáadni az összeget a számlához.
+            A Hibás megadott adatok esetén hibaüzenetet ír a usernek.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.Utal1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Utaló függvény az első számlához. A beírt összeget levonja az első számláról és hozzáadja a második számlához.
+            Nem fogad el olyan összeget, ami negatívba vinné az első számlát és csak pozitív összeget értelmez.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.Kivet1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Ha az első számláról akarunk pénzt kivenni, akkor a beviteli mezőbe beírt összeget ez a függvény vonja le egyenlegből.
+            A Hibás megadott adatok esetén hibaüzenetet ír a usernek, illetve ha a kivétel után negatívba fordulna a számlánk
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.TulajNevValt1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            A beviteli mező tartalmát beírja az elso számla tulajdonosának nevéhez
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.Feltolt2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Ha a második számlára akarjuk a beviteli mezőbe beírt összeget feltölteni, akkor ez a függvény fogja hozzáadni az összeget a számlához.
+            A Hibás megadott adatok esetén hibaüzenetet ír a usernek.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.Utal2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Utaló függvény a második számlához. A beírt összeget levonja a második számláról és hozzáadja az első számlához.
+            Nem fogad el olyan összeget, ami negatívba vinné az első számlát és csak pozitív összeget értelmez.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.Kivet2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Ha a második számláról akarunk pénzt kivenni, akkor a beviteli mezőbe beírt összeget ez a függvény vonja le egyenlegből.
+            A Hibás megadott adatok esetén hibaüzenetet ír a usernek, illetve ha a kivétel után negatívba fordulna a számlánk
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.TulajNevValt2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            A beviteli mező tartalmát beírja a második számla tulajdonosának nevéhez
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BankWPF.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:BankWPF.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BankWPF.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BankWPF.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
